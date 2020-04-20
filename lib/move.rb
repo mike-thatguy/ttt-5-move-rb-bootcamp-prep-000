@@ -11,6 +11,6 @@ def input_to_index(input)
   input.strip.to_i - 1
 end
 
-def move(arr, idx, chr)
+def move(arr, idx, chr = "X")
   arr[idx] = chr
 end
